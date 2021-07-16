@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#control-center {
+    border: 1px solid rgb(124, 123, 123);
+    padding: 10px;
+    display: flex;
+    width: 20%;
+    align-items: center;
+    margin: 30px auto;
+    justify-content: space-around;
+    border-radius: 3px;
+    background-color: rgb(216, 216, 216);
+
+}
+
+.btn {
+    padding: 10px;
+    width: 60px;
+    border: .2px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.get {
+    background-color: rgb(113, 255, 113);
+}
+
+.post {
+    background-color: rgb(255, 123, 149);
+}
+
+.get:hover {
+    width: 65px;
+    background-color: rgb(90, 236, 90);
+    height: 40px;
+}
+
+.post:hover {
+    width: 65px;
+    background-color: rgb(228, 91, 118);
+    height: 40px;
+}
